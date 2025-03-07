@@ -1,0 +1,36 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{DBE10624-54D1-4C70-82F9-235F1CC722D9}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Exercicios_3_aula_2.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Exercicios_3_aula_2">
+        <MSBuild Projects="Exercicios_3_aula_2.dproj"/>
+    </Target>
+    <Target Name="Exercicios_3_aula_2:Clean">
+        <MSBuild Projects="Exercicios_3_aula_2.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Exercicios_3_aula_2:Make">
+        <MSBuild Projects="Exercicios_3_aula_2.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Exercicios_3_aula_2"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Exercicios_3_aula_2:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Exercicios_3_aula_2:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
