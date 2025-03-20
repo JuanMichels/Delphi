@@ -22,14 +22,15 @@ begin
   lista_Produto := TList<string>.Create;
   lista_Preco := TList<string>.Create;
 
+
+    while True do
+begin
     Writeln('1-Cadastrar um novo produto');
     Writeln('2-Listar produtos cadastrados');
     Writeln('3-Pesquisar produto pelo código');
     Writeln('4-Excluir um produto.');
     Writeln('5-Sair do sistema');
-    while True do
-begin
-
+       Readln(opcao);
     case opcao of
     1:
       begin
@@ -85,12 +86,12 @@ begin
 
     5:
     begin
-      Exit;
+      Break;
     end;
 
 
 end;
 end;
 
-  Readln;
+
 end.
