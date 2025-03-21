@@ -27,7 +27,6 @@ type
     RichEdit1: TRichEdit;
     CheckBox1: TCheckBox;
     img1: TImage;
-    LabaledEdit: TLabeledEdit;
     Label1: TLabel;
     LabeledEdit1: TLabeledEdit;
     Meu: TEdit;
@@ -40,6 +39,7 @@ type
     ScrollBar1: TScrollBar;
     SpinEdit1: TSpinEdit;
     Telefone: TMaskEdit;
+    ComboBox3: TComboBox;
 
     procedure btn1Click(Sender: TObject);
     procedure btn2Click(Sender: TObject);

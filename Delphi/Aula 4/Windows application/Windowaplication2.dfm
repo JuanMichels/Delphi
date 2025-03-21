@@ -320,17 +320,6 @@ object Form1: TForm1
         TabOrder = 4
       end
     end
-    object LabaledEdit: TLabeledEdit
-      Left = 240
-      Top = 289
-      Width = 121
-      Height = 23
-      EditLabel.Width = 61
-      EditLabel.Height = 15
-      EditLabel.Caption = 'LabaledEdit'
-      TabOrder = 7
-      Text = ''
-    end
     object LabeledEdit1: TLabeledEdit
       Left = 432
       Top = 450
@@ -339,7 +328,7 @@ object Form1: TForm1
       EditLabel.Width = 67
       EditLabel.Height = 15
       EditLabel.Caption = 'LabeledEdit1'
-      TabOrder = 8
+      TabOrder = 7
       Text = ''
     end
     object Meu: TEdit
@@ -347,7 +336,7 @@ object Form1: TForm1
       Top = 289
       Width = 121
       Height = 23
-      TabOrder = 9
+      TabOrder = 8
       Text = 'Meu editavel'
     end
     object MonthCalendar1: TMonthCalendar
@@ -356,7 +345,7 @@ object Form1: TForm1
       Width = 267
       Height = 205
       Date = 45736.000000000000000000
-      TabOrder = 10
+      TabOrder = 9
     end
     object Panel1: TPanel
       Left = 240
@@ -364,7 +353,7 @@ object Form1: TForm1
       Width = 152
       Height = 114
       Caption = 'Panel1'
-      TabOrder = 11
+      TabOrder = 10
     end
     object pnl1: TPanel
       Left = 432
@@ -372,7 +361,7 @@ object Form1: TForm1
       Width = 209
       Height = 130
       Caption = 'pnl1'
-      TabOrder = 12
+      TabOrder = 11
       object CheckListBox1: TCheckListBox
         Left = 16
         Top = 16
@@ -398,7 +387,7 @@ object Form1: TForm1
         'Op1 '
         'Op2'
         'Op3')
-      TabOrder = 13
+      TabOrder = 12
     end
     object ScrollBar1: TScrollBar
       Left = 544
@@ -406,7 +395,7 @@ object Form1: TForm1
       Width = 153
       Height = 25
       PageSize = 0
-      TabOrder = 14
+      TabOrder = 13
     end
     object SpinEdit1: TSpinEdit
       Left = 647
@@ -415,7 +404,7 @@ object Form1: TForm1
       Height = 24
       MaxValue = 0
       MinValue = 0
-      TabOrder = 15
+      TabOrder = 14
       Value = 0
     end
     object Telefone: TMaskEdit
@@ -425,8 +414,16 @@ object Form1: TForm1
       Height = 23
       EditMask = '_____-____'
       MaxLength = 10
-      TabOrder = 16
+      TabOrder = 15
       Text = '_____-____'
+    end
+    object ComboBox3: TComboBox
+      Left = 240
+      Top = 280
+      Width = 145
+      Height = 23
+      TabOrder = 16
+      Text = 'ComboBox3'
     end
   end
 end
