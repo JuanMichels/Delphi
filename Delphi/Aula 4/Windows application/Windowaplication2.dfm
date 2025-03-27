@@ -3,7 +3,7 @@ object Form1: TForm1
   Top = 0
   Caption = 'Form1'
   ClientHeight = 515
-  ClientWidth = 1083
+  ClientWidth = 1030
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -419,11 +419,15 @@ object Form1: TForm1
     end
     object ComboBox3: TComboBox
       Left = 240
-      Top = 280
+      Top = 289
       Width = 145
       Height = 23
       TabOrder = 16
       Text = 'ComboBox3'
+      Items.Strings = (
+        'Item 1'
+        'Item 2'
+        'Item 3')
     end
   end
 end
