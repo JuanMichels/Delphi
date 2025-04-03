@@ -10,6 +10,7 @@
   Font.Height = -12
   Font.Name = 'Segoe UI'
   Font.Style = []
+  OnCreate = FormCreate
   TextHeight = 15
   object Label1: TLabel
     Left = 264
@@ -122,7 +123,7 @@
     Left = 32
     Top = 111
     Width = 249
-    Height = 25
+    Height = 31
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -17
@@ -225,19 +226,21 @@
       'Normal')
   end
   object Tabela: TStringGrid
-    Left = 8
+    Left = 40
     Top = 226
-    Width = 1033
-    Height = 623
+    Width = 977
+    Height = 609
     Color = clWindowText
     ColCount = 6
     DefaultColWidth = 160
+    FixedCols = 0
     RowCount = 50
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -12
     Font.Name = 'Segoe UI'
     Font.Style = []
+    Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goColSizing, goFixedRowDefAlign]
     ParentFont = False
     TabOrder = 8
     StyleName = 'Windows'
